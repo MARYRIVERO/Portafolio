@@ -184,14 +184,16 @@ body {
 /* ------- Testimonials Section -----*/
 #testimonials {
   margin: 100px 0;
+  display: flexbox;
+  justify-content: space-between;
 }
 .testimonials {
   /* border-left: 5px solid #2ABED4; */
   margin: 40px 0;
 }
 .testimonials img {
-  height: 80px;
-  width: 80px;
+  height: 100px;
+  width: 100px;
   margin: 0 auto;
 }
 .user-details {
@@ -278,6 +280,6 @@ body {
   padding-top: 20px;
 }
 .row {
- justify-content: space-between   !important;
+ justify-content: space-around   !important;
 
 }
